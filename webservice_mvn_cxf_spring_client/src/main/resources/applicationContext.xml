@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://cxf.apache.org/jaxws
+       http://cxf.apache.org/schemas/jaxws.xsd">
+
+    <!--
+        利用jaxws:client 调用访问
+        address: 服务地址
+        serviceClass：服务接口的全类名
+    -->
+    <jaxws:client id="dreamService" serviceClass="cn.lcdiao.IDreamService"
+        address="http://localhost:8080/ws/DreamService?wsdl">
+
+    </jaxws:client>
+</beans>

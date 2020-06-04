@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webservice_client_1/webservice_client_1.iml" filepath="$PROJECT_DIR$/webservice_client_1/webservice_client_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_client_2/webservice_client_2.iml" filepath="$PROJECT_DIR$/webservice_client_2/webservice_client_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_client_6/webservice_client_6.iml" filepath="$PROJECT_DIR$/webservice_client_6/webservice_client_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_client_cxf/webservice_client_cxf.iml" filepath="$PROJECT_DIR$/webservice_client_cxf/webservice_client_cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_network_client_3/webservice_network_client_3.iml" filepath="$PROJECT_DIR$/webservice_network_client_3/webservice_network_client_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_network_client_4/webservice_network_client_4.iml" filepath="$PROJECT_DIR$/webservice_network_client_4/webservice_network_client_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_network_client_5/webservice_network_client_5.iml" filepath="$PROJECT_DIR$/webservice_network_client_5/webservice_network_client_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_network_client_cxf/webservice_network_client_cxf.iml" filepath="$PROJECT_DIR$/webservice_network_client_cxf/webservice_network_client_cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_server_cxf/webservice_server_cxf.iml" filepath="$PROJECT_DIR$/webservice_server_cxf/webservice_server_cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_server_jdk/webservice_server_jdk.iml" filepath="$PROJECT_DIR$/webservice_server_jdk/webservice_server_jdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice_server_jdk_annotation/webservice_server_jdk_annotation.iml" filepath="$PROJECT_DIR$/webservice_server_jdk_annotation/webservice_server_jdk_annotation.iml" />
+    </modules>
+  </component>
+</project>

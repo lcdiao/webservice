@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://cxf.apache.org/jaxws
+       http://cxf.apache.org/schemas/jaxws.xsd">
+
+
+    <!-- 扫描service -->
+    <context:component-scan base-package="cn.lcdiao.translate.service"/>
+
+
+    <!-- 作为客户端调用网络上的翻译服务-->
+    <jaxws:client id="translateClient" serviceClass="cn.com.webxml.EnglishChineseSoap"
+        address="http://fy.webxml.com.cn/webservices/EnglishChinese.asmx?wsdl">
+    </jaxws:client>
+</beans>
