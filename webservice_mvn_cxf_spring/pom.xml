@@ -32,7 +32,7 @@
     <name>webservice_mvn_cxf_spring</name>
     <artifactId>webservice_mvn_cxf_spring</artifactId>
     <properties>
-        <spring.version>5.2.5.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
     </properties>
     <dependencies>
 
